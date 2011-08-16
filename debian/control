@@ -1,0 +1,20 @@
+Source: ruby-parslet
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: David Greaves <david@dgreaves.com>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.2.6~)
+Standards-Version: 3.9.2
+#Vcs-Git: git://git.debian.org/pkg-ruby-extras/ruby-parslet.git
+#Vcs-Browser: http://git.debian.org/?p=pkg-ruby-extras/ruby-parslet.git;a=summary
+Homepage: http://kschiess.github.com/parslet
+XS-Ruby-Versions: all
+
+Package: ruby-parslet
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# blankslate (~> 2.0), rspec (>= 0, development), flexmock (>= 0, development), sdoc (>= 0, development)
+Description: Parser construction library with great error reporting in Ruby.
+ <insert long description, indented with spaces>

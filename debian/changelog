@@ -1,0 +1,5 @@
+ruby-parslet (1.2.1-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #nnnn)
+
+ -- David Greaves <david@dgreaves.com>  Tue, 16 Aug 2011 22:05:20 +0000
